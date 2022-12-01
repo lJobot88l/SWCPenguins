@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "XLkAg7qyaJFxN934sgVol8Z1Gl/nZeW/WLXcdNtG4aXASnWsmeOVzFv+UzunImmaT21C3ZvO/CScAGvjyLvccg==",
+  "success": true,
+  "projectFilePath": "D:\\code\\SWCPenguins\\SWCPenguins.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\R4V3N\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\R4V3N\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\R4V3N\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.29\\microsoft.netcore.app.host.win-x64.3.1.29.nupkg.sha512"
+  ],
+  "logs": []
+}

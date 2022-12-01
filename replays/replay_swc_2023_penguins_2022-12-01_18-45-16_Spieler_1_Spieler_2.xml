@@ -1,0 +1,126 @@
+<protocol>
+<room roomId="67786785-3aed-462a-8273-d3d38336e76a">
+  <data class="memento">
+    <state class="state" turn="0">
+      <startTeam>ONE</startTeam>
+      <board>
+        <list>
+          <field>1</field>
+          <field>1</field>
+          <field>3</field>
+          <field>4</field>
+          <field>3</field>
+          <field>3</field>
+          <field>0</field>
+          <field>3</field>
+        </list>
+        <list>
+          <field>2</field>
+          <field>2</field>
+          <field>1</field>
+          <field>2</field>
+          <field>3</field>
+          <field>1</field>
+          <field>2</field>
+          <field>2</field>
+        </list>
+        <list>
+          <field>2</field>
+          <field>2</field>
+          <field>1</field>
+          <field>2</field>
+          <field>1</field>
+          <field>0</field>
+          <field>2</field>
+          <field>0</field>
+        </list>
+        <list>
+          <field>1</field>
+          <field>1</field>
+          <field>0</field>
+          <field>1</field>
+          <field>1</field>
+          <field>1</field>
+          <field>1</field>
+          <field>1</field>
+        </list>
+        <list>
+          <field>1</field>
+          <field>1</field>
+          <field>1</field>
+          <field>1</field>
+          <field>1</field>
+          <field>0</field>
+          <field>1</field>
+          <field>1</field>
+        </list>
+        <list>
+          <field>0</field>
+          <field>2</field>
+          <field>0</field>
+          <field>1</field>
+          <field>2</field>
+          <field>1</field>
+          <field>2</field>
+          <field>2</field>
+        </list>
+        <list>
+          <field>2</field>
+          <field>2</field>
+          <field>1</field>
+          <field>3</field>
+          <field>2</field>
+          <field>1</field>
+          <field>2</field>
+          <field>2</field>
+        </list>
+        <list>
+          <field>3</field>
+          <field>0</field>
+          <field>3</field>
+          <field>3</field>
+          <field>4</field>
+          <field>3</field>
+          <field>1</field>
+          <field>1</field>
+        </list>
+      </board>
+      <fishes>
+        <int>0</int>
+        <int>0</int>
+      </fishes>
+    </state>
+  </data>
+</room>
+<room roomId="67786785-3aed-462a-8273-d3d38336e76a">
+  <data class="result">
+    <definition>
+      <fragment name="Siegpunkte">
+        <aggregation>SUM</aggregation>
+        <relevantForRanking>true</relevantForRanking>
+      </fragment>
+      <fragment name="Fische">
+        <aggregation>AVERAGE</aggregation>
+        <relevantForRanking>true</relevantForRanking>
+      </fragment>
+    </definition>
+    <scores>
+      <entry>
+        <player name="Spieler 1" team="ONE"/>
+        <score cause="LEFT" reason="Der Spieler hat das Spiel verlassen: LOST_CONNECTION">
+          <part>0</part>
+          <part>0</part>
+        </score>
+      </entry>
+      <entry>
+        <player name="Spieler 2" team="TWO"/>
+        <score cause="REGULAR" reason="">
+          <part>2</part>
+          <part>0</part>
+        </score>
+      </entry>
+    </scores>
+    <winner team="TWO"/>
+  </data>
+</room>
+</protocol>

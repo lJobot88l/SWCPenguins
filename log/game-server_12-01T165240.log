@@ -1,0 +1,8 @@
+16:52:41 WARN               sc.server.Configuration - Could not find server.properties at D:\code\SWCPenguins\server.properties, will use default values!
+16:52:41 INFO   sc.server.network.NewClientListener - Listening on port 13050 for incoming connections.
+16:52:41 DEBUG             sc.server.ServiceManager - Spawning thread for new service (name=NewClientListener, daemon=true)
+16:52:41 DEBUG             sc.server.ServiceManager - Spawning thread for new service (name=ClientManager, daemon=true)
+16:52:41 INFO       sc.server.network.ClientManager - ClientManager running
+16:52:41 DEBUG                  sc.gui.LobbyManager - System Font: Font[name=System Regular, family=System, style=Regular, size=12.0]
+16:52:47 INFO   sc.server.network.NewClientListener - Shutting down NewClientListener...
+16:52:47 DEBUG                     sc.gui.ServerApp - App stopped, ending program

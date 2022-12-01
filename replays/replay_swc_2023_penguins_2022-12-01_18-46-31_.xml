@@ -1,0 +1,25 @@
+<protocol>
+<room roomId="fd31dc16-03b6-4781-b7ef-ece01774c640">
+  <data class="result">
+    <definition>
+      <fragment name="Siegpunkte">
+        <aggregation>SUM</aggregation>
+        <relevantForRanking>true</relevantForRanking>
+      </fragment>
+      <fragment name="Fische">
+        <aggregation>AVERAGE</aggregation>
+        <relevantForRanking>true</relevantForRanking>
+      </fragment>
+    </definition>
+    <scores>
+      <entry>
+        <player team="ONE"/>
+        <score cause="LEFT" reason="Der Spieler hat das Spiel verlassen: LOST_CONNECTION">
+          <part>0</part>
+          <part>0</part>
+        </score>
+      </entry>
+    </scores>
+  </data>
+</room>
+</protocol>
